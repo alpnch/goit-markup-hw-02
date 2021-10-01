@@ -1,0 +1,406 @@
+body {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell;
+  width: 1600px;
+  color: #757575;
+}
+
+/*Section header*/
+
+.menu-nav-studio {
+  text-decoration: none;
+  color: #2196f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.menu-nav-portfolio,
+.menu-nav-contacts {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact-nav-mail,
+.contact-nav-tel {
+  text-decoration: none;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.menu-nav-portfolio:hover,
+.menu-nav-contacts:hover,
+.contact-nav-mail:hover,
+.contact-nav-tel:hover {
+  color: #2196f3;
+}
+
+.menu-nav-portfolio:focus,
+.menu-nav-contacts:focus,
+.contact-nav-mail:focus,
+.contact-nav-tel:focus {
+  color: #2196f3;
+}
+
+/*Section hero*/
+
+.hero-heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  white-space: pre;
+  color: #fff;
+  background-color: #2f303a;
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #fff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+/*Section peculiarities*/
+
+.section-peculiarities-heading {
+  color: #fff;
+}
+
+.section-peculiarities-heading-one,
+.section-peculiarities-heading-two,
+.section-peculiarities-heading-three,
+.section-peculiarities-heading-four {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.section-peculiarities-paragraph-one,
+.section-peculiarities-paragraph-two,
+.section-peculiarities-paragraph-three,
+.section-peculiarities-paragraph-four {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  white-space: pre;
+}
+
+/*Section our job*/
+
+.our-job-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/*Section our team*/
+
+.our-team-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-name-Igor,
+.team-name-Olga,
+.team-name-Nikolay,
+.team-name-Mikhail {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+}
+.team-posicion-Igor,
+.team-posicion-Olga,
+.team-posicion-Nikolay,
+.team-posicion-Mikhail {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+/*Section contacts*/
+
+.section-footer {
+  background: #2f303a;
+}
+
+.section-footer-address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #fff;
+  background: #2f303a;
+}
+
+.section-footer-mail,
+.section-footer-tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+
+  background: #2f303a;
+}
+
+/*section header portfolio*/
+
+.menu-nav-portfolio-p {
+  text-decoration: none;
+  color: #2196f3;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.menu-nav-studio-p,
+.menu-nav-contacts-p {
+  color: #212121;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contact-nav-mail-p,
+.contact-nav-tel-p {
+  text-decoration: none;
+  font-weight: 500;
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.menu-nav-studio-p:hover,
+.menu-nav-contacts-p:hover,
+.contact-nav-mail-p:hover,
+.contact-nav-tel-p:hover {
+  color: #2196f3;
+}
+
+.menu-nav-studio-p:focus,
+.menu-nav-contacts-p:focus,
+.contact-nav-mail-p:focus,
+.contact-nav-tel-p:focus {
+  color: #2196f3;
+}
+
+/*section buttons portfolio*/
+.button1,
+.button2,
+.button3,
+.button4,
+.button5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.button1:hover,
+.button2:hover,
+.button3:hover,
+.button4:hover,
+.button5:hover {
+  color: #fff;
+  background-color: #2196f3;
+}
+
+.button1:focus,
+.button2:focus,
+.button3:focus,
+.button4:focus,
+.button5:focus {
+  color: #fff;
+  background-color: #2196f3;
+}
+
+/*Section portfolio portfolio*/
+
+.heading-portfolio1 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.heading-portfolio2 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.heading-portfolio3 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.heading-portfolio4 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.heading-portfolio5 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.heading-portfolio6 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.heading-portfolio7 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.heading-portfolio8 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.heading-portfolio9 {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.direction1 {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.direction2 {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.direction3 {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.direction4 {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.direction5 {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.direction6 {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.direction7 {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.direction8 {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.direction9 {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*section footer portfolio*/
+
+.section-footer-p {
+  background: #2f303a;
+}
+
+.section-footer-address-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #fff;
+  background: #2f303a;
+}
+
+.section-footer-mail-p,
+.section-footer-tel-p {
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  background: #2f303a;
+}
